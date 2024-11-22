@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
         {
             _isLoading = true;
 
-            SceneManager.LoadScene("GameplayScene");
+            SceneManager.LoadScene("GameplayScene"); // Логика при нажатии на кнопки PLAY
         }
     }
 }

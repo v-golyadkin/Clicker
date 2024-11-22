@@ -40,7 +40,7 @@ public class SlimeView : MonoBehaviour
 
     private void Up()
     {
-        _spriteRenderer.sprite = _upSprite;
+        _spriteRenderer.sprite = _upSprite; 
     }
 
     private void Down()
@@ -50,12 +50,12 @@ public class SlimeView : MonoBehaviour
 
     private void Death()
     {
-        _deathCounterText.text = _slime.DeathCounter.ToString();
+        _deathCounterText.text = _slime.DeathCounter.ToString(); //Обновление UI при смерти
     }
 
     private void HealthChange(int currentHealth)
     {
         _healthSlider.value = currentHealth;
-        _healthCounterText.text = $"{currentHealth}/5";
+        _healthCounterText.text = $"{currentHealth}/5"; //Обновление UI при изменении здоровья 
     }
 }

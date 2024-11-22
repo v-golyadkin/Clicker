@@ -13,9 +13,9 @@ public class Slime : MonoBehaviour, IDamageable
     private int _maxHealth = 5, _currentHealth;
     private int _deathCounter;
 
-    private void Start()
+    private void Start() 
     {
-        Heal();
+        Heal(); // Востанавливаем здоровье запуске
     }
 
     [ContextMenu("Death")]
@@ -23,9 +23,7 @@ public class Slime : MonoBehaviour, IDamageable
     {
         _deathCounter++;
 
-        OnDeath?.Invoke();
-
-        Debug.Log("Death");
+        OnDeath?.Invoke(); // Логика при смерти
 
         Heal();
     }
@@ -41,7 +39,7 @@ public class Slime : MonoBehaviour, IDamageable
     {
         _currentHealth -= damage;
 
-        if (_currentHealth <= 0) Death();
+        if (_currentHealth <= 0) Death(); // Логика при нанесении урона
 
         OnHealthChange?.Invoke(_currentHealth);
     }
