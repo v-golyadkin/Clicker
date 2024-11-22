@@ -9,4 +9,5 @@ https://github.com/user-attachments/assets/f3f247ec-d3b9-4900-88ae-febcd5819c28
 Сложностей при разработке не было.
 
 Версия Unity: 2022.3.23f1
+
 Контакты: https://t.me/RReDDreaMM
