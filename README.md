@@ -5,5 +5,4 @@
 
 # Версия Unity: 2022.3.23f1
 
-https://github.com/user-attachments/assets/5d9c2a27-810f-41d8-8fd1-6f35d8959cda
-
+https://github.com/user-attachments/assets/f3f247ec-d3b9-4900-88ae-febcd5819c28
